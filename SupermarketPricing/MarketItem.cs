@@ -55,8 +55,6 @@ namespace SupermarketPricing
 
         public MarketItem(Money singleUnitCost, string name, ISale sale)
         {
-            // add null check everywhere
-
             SingleUnitCost = singleUnitCost;
             Name = name;
             Sale = sale;
